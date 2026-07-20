@@ -34,6 +34,13 @@ a { color: inherit; text-decoration: none; }
 }
 .nav-wrap { min-height: 76px; display: flex; align-items: center; justify-content: space-between; }
 .brand { display: inline-flex; align-items: center; gap: 11px; font-size: 15px; font-weight: 800; letter-spacing: .8px; }
+.brand img {
+  display: block;
+  width: auto;
+  height: 54px;
+  max-width: 240px;
+  object-fit: contain;
+}
 .brand-mark {
   width: 38px; height: 38px; display: grid; place-items: center;
   border-radius: 12px; font-size: 22px; font-weight: 800;
@@ -149,6 +156,9 @@ details p { color:var(--muted); font-size:14px; margin:16px 0 0; }
 .final-cta .eyebrow { margin-bottom:14px !important; color:#a989ff !important; }
 
 footer { border-top:1px solid var(--border); padding:55px 0 25px; background:#090910; }
+footer .brand img {
+  height: 46px;
+}
 .footer-wrap { display:flex; justify-content:space-between; gap:30px; align-items:flex-start; }
 .footer-wrap p { color:var(--muted); font-size:13px; }
 .footer-links { display:flex; gap:24px; flex-wrap:wrap; font-size:13px; color:var(--muted); }
@@ -163,6 +173,10 @@ footer { border-top:1px solid var(--border); padding:55px 0 25px; background:#09
 @media (max-width: 720px) {
   .container { width:min(100% - 28px,1160px); }
   .site-header { background:rgba(11,11,20,.93); }
+  .brand img {
+  height: 44px;
+  max-width: 190px;
+}
   .menu-toggle { display:block; }
   .nav-links {
     position:absolute; top:76px; left:14px; right:14px; display:none;
