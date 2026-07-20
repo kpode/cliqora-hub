@@ -3,243 +3,219 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Cliqora Hub provides premium Forex signals, daily market analysis and disciplined risk management.">
+  <meta name="description" content="Cliqora Hub delivers premium Forex signals with clear entries, stop-losses, take-profit levels and disciplined risk management.">
+  <meta name="theme-color" content="#12091f">
   <title>Cliqora Hub | Premium Forex Signals</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <div class="container nav-wrap">
-
-        <a class="brand" href="#home" aria-label="Cliqora Hub home">
-          <span class="brand-mark">C</span>
-          <span>CLIQORA HUB</span>
+  <div class="site-shell">
+    <header class="site-header" id="top">
+      <div class="container nav-wrap">
+        <a class="nav-logo" href="#top" aria-label="Cliqora Hub home">
+          <img src="assets/logo-primary.svg" alt="Cliqora Hub">
         </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+          <a href="#about">About</a>
+          <a href="#features">Features</a>
+          <a href="#performance">Performance</a>
+          <a href="#faq">FAQ</a>
+          <a class="nav-cta" href="#join">Join Now</a>
+        </nav>
+      </div>
+    </header>
 
-      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-
-      <nav class="nav-links">
-        <a href="#home">Home</a>
-        <a href="#results">Results</a>
-        <a href="#pricing">Pricing</a>
-        <a href="#faq">FAQ</a>
-      </nav>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-glow"></div>
-      <div class="container hero-content">
-        <p class="eyebrow">PREMIUM FOREX SIGNALS</p>
-        <h1>Trade Smarter.<br><span>Profit Consistently.</span></h1>
-        <p class="hero-copy">
-          Join Cliqora Hub and receive accurate Forex signals, professional market analysis,
-          and disciplined risk management delivered directly to you.
-        </p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#pricing">Join VIP Now</a>
-          <a class="button button-secondary" href="#results">View Results</a>
+    <main>
+      <section class="hero section" id="about">
+        <div class="ambient ambient-one"></div>
+        <div class="ambient ambient-two"></div>
+        <div class="container hero-inner reveal">
+          <img class="hero-logo" src="assets/logo-primary.svg" alt="Cliqora Hub Premium Forex Signals">
+          <h1>Trade Forex With <span>Confidence</span></h1>
+          <p>Receive high-probability Forex trade setups with clear entry, stop-loss, take-profit levels, and disciplined risk management.</p>
+          <div class="cta-row">
+            <a class="button button-primary" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/telegram.svg" alt="" aria-hidden="true"> Join Telegram
+            </a>
+            <a class="button button-secondary" href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true"> Join WhatsApp
+            </a>
+          </div>
         </div>
-        <div class="hero-points">
-          <span>✓ Accurate Signals</span>
-          <span>✓ Daily Analysis</span>
-          <span>✓ Smart Risk Management</span>
+      </section>
+
+      <section class="section section-bordered" id="features">
+        <div class="container reveal">
+          <div class="section-heading">
+            <span class="eyebrow">Why traders choose Cliqora</span>
+            <h2>Smart Signals. Better Trades.</h2>
+            <p>We combine technical analysis, proven strategies, and strict risk management to help you trade with clarity and confidence.</p>
+          </div>
+          <div class="feature-grid">
+            <article class="feature-item">
+              <div class="feature-icon"><img src="assets/icons/chart.svg" alt=""></div>
+              <h3>High-Probability Signals</h3>
+              <p>Every signal is backed by in-depth technical analysis to deliver high-probability trade setups.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-icon"><img src="assets/icons/shield.svg" alt=""></div>
+              <h3>Built-In Risk Management</h3>
+              <p>Each trade comes with clear entry, stop-loss, and take-profit levels to protect your capital.</p>
+            </article>
+            <article class="feature-item">
+              <div class="feature-icon"><img src="assets/icons/lightning.svg" alt=""></div>
+              <h3>Instant Signal Delivery</h3>
+              <p>Receive signals instantly on Telegram and WhatsApp so you never miss an opportunity.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-bordered" id="performance">
+        <div class="container reveal">
+          <div class="section-heading">
+            <span class="eyebrow">Performance &amp; transparency</span>
+            <h2>Results You Can Trust</h2>
+            <p>Our focus is on consistency, discipline, and long-term growth.</p>
+          </div>
+          <div class="stats-panel">
+            <article class="stat-item">
+              <img src="assets/icons/target.svg" alt="">
+              <strong data-count="75" data-suffix="%+">75%+</strong>
+              <span>Win Rate</span>
+            </article>
+            <article class="stat-item">
+              <img src="assets/icons/trend.svg" alt="">
+              <strong data-count="1000" data-suffix="+">1000+</strong>
+              <span>Signals Delivered</span>
+            </article>
+            <article class="stat-item">
+              <img src="assets/icons/users.svg" alt="">
+              <strong data-count="5000" data-suffix="+">5000+</strong>
+              <span>Active Traders</span>
+            </article>
+            <article class="stat-item">
+              <img src="assets/icons/award.svg" alt="">
+              <strong data-count="100" data-suffix="%">100%</strong>
+              <span>Transparent Results</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-bordered" id="how-it-works">
+        <div class="container reveal">
+          <div class="section-heading">
+            <span class="eyebrow">How it works</span>
+            <h2>Simple. Effective. Profitable.</h2>
+          </div>
+          <div class="steps">
+            <article class="step">
+              <div class="step-number">1</div>
+              <h3>Join</h3>
+              <p>Join our Telegram or WhatsApp channel in just a few clicks.</p>
+            </article>
+            <article class="step">
+              <div class="step-number">2</div>
+              <h3>Receive Signals</h3>
+              <p>Get high-probability trade setups with clear levels in real time.</p>
+            </article>
+            <article class="step">
+              <div class="step-number">3</div>
+              <h3>Trade With Confidence</h3>
+              <p>Follow the plan, manage your risk, and grow your account consistently.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-bordered" id="testimonials">
+        <div class="container reveal">
+          <div class="section-heading">
+            <span class="eyebrow">Trusted by traders</span>
+            <h2>What Our Traders Say</h2>
+          </div>
+          <div class="testimonial-grid">
+            <figure class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>“Cliqora Hub has completely changed the way I trade. The signals are accurate and the risk management is top-notch.”</blockquote>
+              <figcaption><strong>John D.</strong><span>Nigeria</span></figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>“Finally found a signal service that is transparent and delivers consistent results. Highly recommended!”</blockquote>
+              <figcaption><strong>Sarah K.</strong><span>Kenya</span></figcaption>
+            </figure>
+            <figure class="testimonial-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <blockquote>“The clarity in every signal helps me trade without emotions. My results have been very consistent.”</blockquote>
+              <figcaption><strong>Michael T.</strong><span>South Africa</span></figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" id="join">
+        <div class="container reveal">
+          <div class="cta-panel">
+            <div>
+              <h2>Ready to Trade <span>Smarter?</span></h2>
+              <p>Join thousands of traders who trust Cliqora Hub for premium Forex signals.</p>
+            </div>
+            <div class="cta-stack">
+              <a class="button button-primary" href="https://t.me/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/telegram.svg" alt="" aria-hidden="true"> Join Telegram
+              </a>
+              <a class="button button-secondary" href="https://wa.me/" target="_blank" rel="noopener noreferrer">
+                <img src="assets/icons/whatsapp.svg" alt="" aria-hidden="true"> Join WhatsApp
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq">
+        <div class="container narrow reveal">
+          <div class="section-heading">
+            <span class="eyebrow">Frequently asked questions</span>
+            <h2>Everything You Need to Know</h2>
+          </div>
+          <div class="accordion">
+            <details>
+              <summary>How are the signals delivered?</summary>
+              <p>Signals are delivered directly through our Telegram and WhatsApp communities.</p>
+            </details>
+            <details>
+              <summary>What information is included in each signal?</summary>
+              <p>Each setup includes entry guidance, stop-loss, take-profit levels, and risk-management context.</p>
+            </details>
+            <details>
+              <summary>Can beginners join Cliqora Hub?</summary>
+              <p>Yes. The signal format is designed to be clear, but every trader should understand that Forex trading involves risk.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <img src="assets/logo-primary.svg" alt="Cliqora Hub">
+        <p>© <span id="year">2026</span> Cliqora Hub. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
         </div>
       </div>
-    </section>
-
-    <section class="section" id="features">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">WHY CLIQORA HUB</p>
-          <h2>Everything You Need to Trade With Confidence</h2>
-          <p>Clear trade ideas, thoughtful analysis and disciplined execution in one premium community.</p>
-        </div>
-
-        <div class="card-grid four">
-          <article class="feature-card">
-            <div class="icon-box">↗</div>
-            <h3>Accurate Signals</h3>
-            <p>Receive carefully analysed Forex entries backed by technical analysis.</p>
-          </article>
-          <article class="feature-card">
-            <div class="icon-box">⌁</div>
-            <h3>Market Analysis</h3>
-            <p>Daily market outlooks that help you understand the reasoning behind every trade.</p>
-          </article>
-          <article class="feature-card">
-            <div class="icon-box">◈</div>
-            <h3>Risk Management</h3>
-            <p>Every signal includes a disciplined stop-loss and take-profit strategy.</p>
-          </article>
-          <article class="feature-card">
-            <div class="icon-box">⚡</div>
-            <h3>Instant Delivery</h3>
-            <p>Signals are delivered promptly so you do not miss trading opportunities.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="results">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">PERFORMANCE</p>
-          <h2>Recent Winning Signals</h2>
-          <p>A snapshot of recently shared trade opportunities.</p>
-        </div>
-
-        <div class="results-grid">
-          <article class="result-card">
-            <div><strong>EURUSD</strong><span>Major pair</span></div>
-            <span class="trade buy">BUY</span>
-            <strong class="pips">+75 Pips</strong>
-          </article>
-          <article class="result-card">
-            <div><strong>XAUUSD</strong><span>Gold</span></div>
-            <span class="trade buy">BUY</span>
-            <strong class="pips">+180 Pips</strong>
-          </article>
-          <article class="result-card">
-            <div><strong>GBPUSD</strong><span>Major pair</span></div>
-            <span class="trade sell">SELL</span>
-            <strong class="pips">+62 Pips</strong>
-          </article>
-          <article class="result-card">
-            <div><strong>USDJPY</strong><span>Major pair</span></div>
-            <span class="trade buy">BUY</span>
-            <strong class="pips">+54 Pips</strong>
-          </article>
-        </div>
-        <p class="risk-note">Past results do not guarantee future performance. Trading involves risk.</p>
-      </div>
-    </section>
-
-    <section class="section" id="pricing">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">MEMBERSHIP</p>
-          <h2>Choose Your Access</h2>
-          <p>Start free or unlock the complete Cliqora Hub experience.</p>
-        </div>
-
-        <div class="pricing-grid">
-          <article class="price-card">
-            <h3>Starter</h3>
-            <p class="price">Free</p>
-            <ul>
-              <li>Selected market updates</li>
-              <li>Educational content</li>
-              <li>Community announcements</li>
-            </ul>
-            <a class="button button-secondary full" href="#">Join Free</a>
-          </article>
-
-          <article class="price-card featured">
-            <span class="popular">MOST POPULAR</span>
-            <h3>VIP Monthly</h3>
-            <p class="price">Monthly</p>
-            <ul>
-              <li>Premium Forex signals</li>
-              <li>Daily market analysis</li>
-              <li>Stop-loss and take-profit levels</li>
-              <li>Priority signal delivery</li>
-            </ul>
-            <a class="button button-primary full" href="#">Join VIP Now</a>
-          </article>
-
-          <article class="price-card">
-            <h3>Lifetime</h3>
-            <p class="price">One-Time</p>
-            <ul>
-              <li>Lifetime VIP access</li>
-              <li>All premium signals</li>
-              <li>Daily market analysis</li>
-              <li>Future community benefits</li>
-            </ul>
-            <a class="button button-secondary full" href="#">Get Lifetime Access</a>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt" id="testimonials">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">COMMUNITY FEEDBACK</p>
-          <h2>What Members Say</h2>
-        </div>
-        <div class="card-grid three">
-          <article class="testimonial-card"><p>“Member testimonial will be added here.”</p><strong>Member Name</strong></article>
-          <article class="testimonial-card"><p>“Member testimonial will be added here.”</p><strong>Member Name</strong></article>
-          <article class="testimonial-card"><p>“Member testimonial will be added here.”</p><strong>Member Name</strong></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="faq">
-      <div class="container narrow">
-        <div class="section-heading">
-          <p class="eyebrow">FAQ</p>
-          <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <div class="faq-list">
-          <details>
-            <summary>How do I receive signals?</summary>
-            <p>Signals are delivered through the designated Cliqora Hub community channel after you join.</p>
-          </details>
-          <details>
-            <summary>Is this suitable for beginners?</summary>
-            <p>Yes. Each signal includes clear trade levels, while the market analysis helps beginners understand the setup.</p>
-          </details>
-          <details>
-            <summary>What markets do you trade?</summary>
-            <p>Cliqora Hub primarily follows major Forex pairs and selected high-quality market opportunities.</p>
-          </details>
-          <details>
-            <summary>How often are signals sent?</summary>
-            <p>Signals are shared when suitable opportunities appear. Quality and risk discipline take priority over quantity.</p>
-          </details>
-        </div>
-      </div>
-    </section>
-
-    <section class="final-cta">
-      <div class="container">
-        <p class="eyebrow">TAKE THE NEXT STEP</p>
-        <h2>Ready to Trade Smarter?</h2>
-        <p>Join Cliqora Hub and trade with greater structure, clarity and confidence.</p>
-        <a class="button button-primary" href="#pricing">Join VIP Now</a>
-      </div>
-    </section>
-  </main>
-
-  <footer>
-    <div class="container footer-wrap">
-      <div>
-        <a class="brand" href="#home" aria-label="Cliqora Hub home">
-          <img src="assets/logo-primary.png" alt="Cliqora Hub">
-        </a>
-        <p>Precise Signals. Powerful Results.</p>
-      </div>
-      <div class="footer-links">
-        <a href="#">Privacy</a>
-        <a href="#">Terms</a>
-        <a href="#">Contact</a>
-        <a href="#">Telegram</a>
-        <a href="#">Facebook</a>
-      </div>
-    </div>
-    <div class="container copyright">© <span id="year"></span> Cliqora Hub. All rights reserved.</div>
-  </footer>
-
+    </footer>
+  </div>
   <script src="script.js"></script>
 </body>
 </html>

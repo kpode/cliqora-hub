@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">Cliqora Hub</title>
+  <desc id="desc">Cliqora Hub premium forex signals logo for dark backgrounds</desc>
+  <defs>
+    <linearGradient id="qGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d61bff"/>
+      <stop offset="0.48" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#2094ff"/>
+    </linearGradient>
+    <linearGradient id="hubGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(18 12)">
+    <path fill="url(#qGradient)" d="M84 8a72 72 0 1 0 45.2 128l-21.8-21.8A42 42 0 1 1 126 81.7h31.5A72 72 0 0 0 84 8Z"/>
+    <path fill="url(#qGradient)" d="M80 72h38l54 54h-40l-35-35H80Z"/>
+  </g>
+  <text x="210" y="91" font-family="Inter, Arial, Helvetica, sans-serif" font-size="68" font-weight="800" letter-spacing="-2" fill="#fff">Cliqora</text>
+  <text x="472" y="91" font-family="Inter, Arial, Helvetica, sans-serif" font-size="68" font-weight="800" letter-spacing="-2" fill="url(#hubGradient)">Hub</text>
+  <text x="214" y="139" font-family="Inter, Arial, Helvetica, sans-serif" font-size="20" font-weight="600" letter-spacing="7" fill="#fff">PREMIUM FOREX SIGNALS</text>
+</svg>
